@@ -7,7 +7,6 @@ import android.text.TextWatcher;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Spinner;
-import androidx.appcompat.app.AppCompatActivity;
 
 public class UserSearchActivity extends BaseActivity {
 
