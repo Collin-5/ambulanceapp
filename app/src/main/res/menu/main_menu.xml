@@ -1,0 +1,21 @@
+<!-- res/menu/main_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_main_activity"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_admin_login"
+        android:title="Admin Login"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_register"
+        android:title="Register"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>

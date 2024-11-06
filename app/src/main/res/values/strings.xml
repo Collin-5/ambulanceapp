@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ambulanceapp</string>
+    <string-array name="filter_types">
+        <item>Company Name</item>
+        <item>Location</item>
+        <item>Landmark</item>
+        <item>Vehicle Type</item>
+        <item>Phone</item>
+    </string-array>
+</resources>

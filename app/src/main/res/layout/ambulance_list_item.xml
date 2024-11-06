@@ -1,0 +1,28 @@
+<!-- ambulance_list_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- TextView for displaying ambulance details -->
+    <TextView
+        android:id="@+id/textCompanyName"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Ambulance Name"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+    <!-- Call Button -->
+    <ImageButton
+        android:id="@+id/buttonCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_call"
+        android:contentDescription="Call"
+        android:background="?android:selectableItemBackground"
+        android:padding="8dp" />
+</LinearLayout>
